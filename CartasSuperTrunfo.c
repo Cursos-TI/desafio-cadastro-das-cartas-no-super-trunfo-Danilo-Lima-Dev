@@ -10,6 +10,7 @@ int main() {
     float pib1, pib2;
     int pontosturisticos1, pontosturisticos2;
 
+
     // Cadastro da Carta 1
     printf("Cadastro da Carta 1:\n");
     printf("Digite o estado (uma letra de A a H): ");
@@ -26,6 +27,10 @@ int main() {
 
     printf("Digite a area (em km²): ");
     scanf("%f", &area1);
+
+    //Aqui estou declarando a variavel densidade da carta 2, utilizando o operador matematico de divisão e ja armazenando o valor na variavel
+    //Declarei aqui, logo depois da inserção dos dados em suas variaveis
+    float densidade1 = (populacao1 / area1);
 
     printf("Digite o PIB (em bilhoes de reais): ");
     scanf("%f", &pib1);
@@ -52,6 +57,10 @@ int main() {
     printf("Digite a area (em km²): ");
     scanf("%f", &area2);
 
+    //Aqui estou declarando a variavel densidade da carta 2, utilizando o operador matematico de divisão e ja armazenando o valor na variavel
+    //Declarei aqui, logo depois da inserção dos dados em suas variaveis
+    float densidade2 = (populacao2 / area2);
+
     printf("Digite o PIB (em bilhoes de reais): ");
     scanf("%f", &pib2);
 
@@ -69,6 +78,7 @@ int main() {
     printf("Area: %.2f km²\n", area1);
     printf("PIB: %.2f bilhoes de reais\n", pib1);
     printf("Numero de Pontos Turisticos: %d\n", pontosturisticos1);
+    printf("A densidade populacional é de: %.2f\n", densidade1);
 
     printf("\n"); //Aqui dexei pulando uma linha para ficar mais apresentavel na hora da impressão
 
@@ -80,6 +90,7 @@ int main() {
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Numero de Pontos Turisticos: %d\n", pontosturisticos2);
+    printf("A densidade populacional é de: %.2f\n", densidade2);
 
     return 0;
 }
