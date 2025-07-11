@@ -28,7 +28,7 @@ int main() {
     printf("Digite a area (em km²): ");
     scanf("%f", &area1);
 
-    //Aqui estou declarando a variavel densidade da carta 2, utilizando o operador matematico de divisão e ja armazenando o valor na variavel
+    //Aqui estou declarando a variavel densidade da carta 1, utilizando o operador matematico de divisão e ja armazenando o valor na variavel
     //Declarei aqui, logo depois da inserção dos dados em suas variaveis
     float densidade1 = (populacao1 / area1);
 
